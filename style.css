@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    border:black 3px;
+
+}
+
+nav ul {
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 12px;
+    justify-content: space-around;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+nav ul li:hover {
+    color:rgb(43, 80, 132);
+}
+
+h1 {    
+    text-align: center;
+    text-decoration:underline;
+    background-color: rgb(43, 80, 132);
+}
+
+/* ! Class selector */
+
+.topcolor {
+    width: 100%;
+    background-color: black;
+
+}
+
+.stancolor {
+    width: 100%;
+    background-color: rgb(43, 80, 132);
+    display: flex;
+    padding: 12px;
+    /* justify-content: space-around; */
+}
+
+.bigimage {
+    width: 400px;
+    height: 400px;
+}
+
+.splitl {
+    margin-right: 10px;
+    margin-left: 5px;
+    width: 2200px;
+}
+
+.splitr {
+    margin-left: 10px;
+    margin-right: 5px;
+    float: right; 
+}
+
+/* ? ID selector */
+
+#color1 {
+    background-color: black;
+}
+
+#color2 {
+    background-color: rgb(43, 80, 132);
+}
+
+#color3 {
+    background-color: green;
+}
+
+#bard {
+    width: 768px;
+    height: 432px;
+    margin-top: 4px;
+    margin-bottom: 19px;
+}
+
+#karma {
+    width: 300px;
+    height: 175px;
+    margin-top: 4px;
+    margin-bottom: 19px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+#janna {
+    width: 300px;
+    height: 175px;
+    margin-top: 4px;
+    margin-bottom: 19px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+#darius {
+    width: 300px;
+    height: 175px;
+    margin-top: 4px;
+    margin-bottom: 19px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
